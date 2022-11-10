@@ -28,7 +28,11 @@ module.exports = {
             chunks: ["one"] //chunks指定需要引入的入口模块的键名 one:"./src/one.js"
         }),
         new CleanWebpackPlugin(),
-        new WebpackBar(),
+        new WebpackBar({
+            color: "#caf",  // 默认green，进度条颜色支持HEX
+            basic: true,   // 默认true，启用一个简单的日志报告器
+            profile:false,  // 默认false，启用探查器。
+          }),
 
     ],
     module: {
