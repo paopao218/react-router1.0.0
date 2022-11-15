@@ -1,8 +1,35 @@
-.special {
-    background: #09f;
-    color: #fff;
+ul{
+    margin: 0px;
+    padding:0px;
+    list-style: none;
 }
-
-.one {
-    background: #090;
+ul.nav{
+    overflow: hidden;
+}
+ul.nav li{
+    width: 80px;
+    
+    background:#09f;
+    float:left;
+    margin-right:30px;
+    text-align: center;
+}
+ul.nav li a{
+    height: 28px;
+    text-decoration: none;
+    color: aliceblue;
+    display: block;
+}
+ul.nav li a:hover{
+    color:#ff0;
+    background: #99f;
+}
+.container{
+    width: 400px;
+    height: 400px;
+    background:#caf;
+}
+.special{
+    color:rgb(22, 176, 223);
+    font-family: 华文彩云;
 }
